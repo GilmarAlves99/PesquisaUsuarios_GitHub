@@ -45,12 +45,12 @@ function verificaUser() {
             seguindo.textContent = `Seguidores: ${data.following}`;
             seguidores.textContent = `Seguindo: ${data.followers}`;
             links.innerHTML = `Blog: <a href="${data.blog}">${data.blog}</a>`;
-
+/*
             if (404) {
                 localStorage.removeItem("name");
                 verificaUser();
             }
-
+*/
 
         }).catch((erro) => {
             console.log('Usuario não encontrado' + erro)

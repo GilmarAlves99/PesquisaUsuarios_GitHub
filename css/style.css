@@ -55,18 +55,21 @@ body {
 }
 
 h1 {
-  font-size: 2em;
+  font-size: 1.8em;
   line-height: 0;
 }
 
 .pesquisar {
   display: block;
-  width: 500px;
+  width: 100%;
   text-align: center;
   height: auto;
 }
 .pesquisar form {
   display: flex;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .pesquisar form input {
   box-sizing: border-box;
@@ -78,7 +81,7 @@ h1 {
 }
 .pesquisar form input[type=text] {
   padding: 10px;
-  flex: 1;
+  flex: 0;
   font-size: 1em;
   border: 1px solid rgb(199, 199, 199);
   border-radius: 0;
